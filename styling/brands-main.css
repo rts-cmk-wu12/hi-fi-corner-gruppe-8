@@ -1,0 +1,11 @@
+@import url(color-source.css);
+
+.highlight_brand {
+   color: var(--highlight-color-brands);
+}
+
+
+.brands_logos_main img {
+width: 100px;
+height: 100%;
+}
