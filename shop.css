@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    max-width: 100%;
+}
+
+
+#grid-container{
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+justify-content: start;
+max-width: 900px;
+margin: 0 auto;
+  }
+
+
+  img{
+    max-width: 100%; 
+  }
+
+.grid.items{
+text-align: center;
+align-items: center;
+}
+
+a{
+    color: white;
+}
+
+
