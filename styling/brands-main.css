@@ -1,11 +1,55 @@
 @import url(color-source.css);
 
+* {
+   margin: 0 auto;
+   padding: 0;
+   box-sizing: border-box;
+   color: var(--background-color-brands);
+}
+
+.brands_main {
+   background-color: var(--background-color-brands);
+}
+
+.brands_wrap {
+   background-image: url(../brands-background.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   padding: 2rem 0;
+}
+
+.background_color_brands_section {
+background-color: var(--background-color-brands);
+   margin: auto;
+   width: 70%;
+   padding: 1.5rem;
+   border-radius: 10px;
+
+}
+
+.background_color_brands_undersection {
+   padding: 1rem;
+   background-image: url(../brands-background.jpg);
+   z-index: 1;
+}
+
+.brands_start {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
+}
+
 .highlight_brand {
    color: var(--highlight-color-brands);
 }
 
 
 .brands_logos_main img {
-width: 100px;
-height: 100%;
+   width: 100px;
+   height: 100%;
+   filter: brightness(1) invert(1);
+}
+
+.highlight_brand_large {
+   font-size: 1.75rem;
 }
