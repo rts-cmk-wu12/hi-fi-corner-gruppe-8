@@ -1,0 +1,261 @@
+  {
+    "products": [
+      {
+        "name": "CD Player Pro",
+        "description": "High-end CD player with exceptional audio quality",
+        "price": 599.99,
+        "image": "cd_player_pro.jpg",
+        "category": "cd-afspillere",
+        "manufacturer": "AudioTech"       
+
+      },
+      {
+        "name": "Compact Disc Master",
+        "description": "Versatile CD player with multiple playback options",
+        "price": 399.99,
+        "image": "compact_disc_master.jpg",
+        "category": "cd-afspillere",
+        "manufacturer": "SoundWave Electronics"
+      },
+      {
+        "name": "AudioPhile CD",
+        "description": "Audiophile-grade CD player for discerning listeners",
+        "price": 799.99,
+        "image": "audiophile_cd.jpg",
+        "category": "cd-afspillere",
+        "manufacturer": "HiFi Solutions"
+      },
+      {
+        "name": "Portable CD Genius",
+        "description": "Compact and portable CD player for music on-the-go",
+        "price": 149.99,
+        "image": "portable_cd_genius.jpg",
+        "category": "cd-afspillere",
+        "manufacturer": "MobileAudio"
+      },
+      {
+        "name": "DVD Cinema Pro",
+        "description": "High-performance DVD player with upscaling capabilities",
+        "price": 299.99,
+        "image": "dvd_cinema_pro.jpg",
+        "category": "dvd-afspillere",
+        "manufacturer": "VisualTech"
+      },
+      {
+        "name": "Multi-Region DVD Master",
+        "description": "Versatile DVD player compatible with all regions",
+        "price": 199.99,
+        "image": "multi_region_dvd.jpg",
+        "category": "dvd-afspillere",
+        "manufacturer": "GlobalPlay"
+      },
+      {
+        "name": "DVD Surround Elite",
+        "description": "DVD player with built-in surround sound processing",
+        "price": 349.99,
+        "image": "dvd_surround_elite.jpg",
+        "category": "dvd-afspillere",
+        "manufacturer": "CinemaAudio"
+      },
+      {
+        "name": "Compact DVD Player",
+        "description": "Space-saving DVD player with sleek design",
+        "price": 129.99,
+        "image": "compact_dvd_player.jpg",
+        "category": "dvd-afspillere",
+        "manufacturer": "SlimTech"
+      },
+      {
+        "name": "PowerAmp 1000",
+        "description": "High-power amplifier for professional audio setups",
+        "price": 1499.99,
+        "image": "poweramp_1000.jpg",
+        "category": "effektforstærkere",
+        "manufacturer": "ProSound"
+      },
+      {
+        "name": "Studio Effect Amp",
+        "description": "Versatile effect amplifier for recording studios",
+        "price": 999.99,
+        "image": "studio_effect_amp.jpg",
+        "category": "effektforstærkere",
+        "manufacturer": "StudioTech"
+      },
+      {
+        "name": "Bass Booster 5000",
+        "description": "Powerful amplifier optimized for low-frequency response",
+        "price": 799.99,
+        "image": "bass_booster_5000.jpg",
+        "category": "effektforstærkere",
+        "manufacturer": "DeepSound"
+      },
+      {
+        "name": "ConcertMaster Amp",
+        "description": "High-output amplifier for live performances",
+        "price": 1799.99,
+        "image": "concertmaster_amp.jpg",
+        "category": "effektforstærkere",
+        "manufacturer": "StagePro"
+      },
+      {
+        "name": "CrystalClear Amp",
+        "description": "Audiophile-grade amplifier with minimal distortion",
+        "price": 1299.99,
+        "image": "crystalclear_amp.jpg",
+        "category": "forstærkere",
+        "manufacturer": "PureAudio"
+      },
+      {
+        "name": "Stereo Master 3000",
+        "description": "Powerful stereo amplifier for home audio systems",
+        "price": 899.99,
+        "image": "stereo_master_3000.jpg",
+        "category": "forstærkere",
+        "manufacturer": "HomeSound"
+      },
+      {
+        "name": "MultiChannel Amp",
+        "description": "Versatile multi-channel amplifier for home theaters",
+        "price": 1599.99,
+        "image": "multichannel_amp.jpg",
+        "category": "forstærkere",
+        "manufacturer": "CinemaAudio"
+      },
+      {
+        "name": "Compact Power Amp",
+        "description": "Space-efficient amplifier with impressive output",
+        "price": 699.99,
+        "image": "compact_power_amp.jpg",
+        "category": "forstærkere",
+        "manufacturer": "MiniPower"
+      },
+      {
+        "name": "FloorStander Pro",
+        "description": "High-end floor-standing speakers for audiophiles",
+        "price": 2499.99,
+        "image": "floorstander_pro.jpg",
+        "category": "højtalere",
+        "manufacturer": "SoundTower"
+      },
+      {
+        "name": "Bookshelf Maestro",
+        "description": "Compact bookshelf speakers with impressive sound",
+        "price": 799.99,
+        "image": "bookshelf_maestro.jpg",
+        "category": "højtalere",
+        "manufacturer": "RoomAcoustics"
+      },
+      {
+        "name": "Surround Set 5.1",
+        "description": "Complete 5.1 surround sound speaker system",
+        "price": 1999.99,
+        "image": "surround_set_51.jpg",
+        "category": "højtalere",
+        "manufacturer": "CinemaSound"
+      },
+      {
+        "name": "Outdoor Speaker Duo",
+        "description": "Weather-resistant outdoor speakers for patio and garden",
+        "price": 399.99,
+        "image": "outdoor_speaker_duo.jpg",
+        "category": "højtalere",
+        "manufacturer": "NatureTones"
+      },
+      {
+        "name": "All-in-One 2000",
+        "description": "Integrated amplifier with multiple inputs and high-quality DAC",
+        "price": 1799.99,
+        "image": "all_in_one_2000.jpg",
+        "category": "int-forstærkere",
+        "manufacturer": "UniSound"
+      },
+      {
+        "name": "StreamMaster Integrated",
+        "description": "Integrated amplifier with built-in streaming capabilities",
+        "price": 1499.99,
+        "image": "streammaster_integrated.jpg",
+        "category": "int-forstærkere",
+        "manufacturer": "NetAudio"
+      },
+      {
+        "name": "Phono Integrated Amp",
+        "description": "Integrated amplifier with high-quality phono stage",
+        "price": 1299.99,
+        "image": "phono_integrated_amp.jpg",
+        "category": "int-forstærkere",
+        "manufacturer": "VinylSound"
+      },
+      {
+        "name": "Compact Integrated",
+        "description": "Space-saving integrated amplifier for small rooms",
+        "price": 899.99,
+        "image": "compact_integrated.jpg",
+        "category": "int-forstærkere",
+        "manufacturer": "MiniHiFi"
+      },
+      {
+        "name": "VinylMaster Turntable",
+        "description": "High-quality turntable for vinyl enthusiasts",
+        "price": 799.99,
+        "image": "vinylmaster_turntable.jpg",
+        "category": "pladespillere",
+        "manufacturer": "RetroSound"
+      },
+      {
+        "name": "Direct Drive Pro",
+        "description": "Professional-grade direct drive turntable",
+        "price": 1299.99,
+        "image": "direct_drive_pro.jpg",
+        "category": "pladespillere",
+        "manufacturer": "DJTech"
+      },
+      {
+        "name": "Belt-Drive Classic",
+        "description": "Audiophile belt-drive turntable with wooden base",
+        "price": 999.99,
+        "image": "belt_drive_classic.jpg",
+        "category": "pladespillere",
+        "manufacturer": "VintageSounds"
+      },
+      {
+        "name": "Automatic Vinyl Player",
+        "description": "User-friendly automatic turntable for easy operation",
+        "price": 399.99,
+        "image": "automatic_vinyl_player.jpg",
+        "category": "pladespillere",
+        "manufacturer": "EasyListen"
+      },
+      {
+        "name": "Tube Preamp Deluxe",
+        "description": "High-end tube preamplifier for warm, rich sound",
+        "price": 2499.99,
+        "image": "tube_preamp_deluxe.jpg",
+        "category": "rørforstærkere",
+        "manufacturer": "GlowAudio"
+      },
+      {
+        "name": "Stereo Tube Amp",
+        "description": "Classic stereo tube amplifier for audiophiles",
+        "price": 1999.99,
+        "image": "stereo_tube_amp.jpg",
+        "category": "rørforstærkere",
+        "manufacturer": "VacuumSound"
+      },
+      {
+        "name": "Hybrid Tube Integrated",
+        "description": "Integrated amplifier combining tube and solid-state technologies",
+        "price": 1799.99,
+        "image": "hybrid_tube_integrated.jpg",
+        "category": "rørforstærkere",
+        "manufacturer": "FusionAudio"
+      },
+      {
+        "name": "MiniTube Headphone Amp",
+        "description": "Compact tube amplifier for headphone enthusiasts",
+        "price": 599.99,
+        "image": "minitube_headphone_amp.jpg",
+        "category": "rørforstærkere",
+        "manufacturer": "PersonalTube"
+      }
+    ]
+  }
