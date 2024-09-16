@@ -19,18 +19,26 @@
 }
 
 .background_color_brands_section {
-background-color: var(--background-color-brands);
+   background-color: var(--background-color-brands);
    margin: auto;
-   width: 70%;
+   width: 90%;
    padding: 1.5rem;
    border-radius: 10px;
 
+}
+
+.brands_section_flex {
+   display: flex;
 }
 
 .background_color_brands_undersection {
    padding: 1rem;
    background-image: url(../brands-background.jpg);
    z-index: 1;
+}
+
+.brands_section_flex_undersection article {
+   width: 50%;
 }
 
 .brands_start {
@@ -43,10 +51,20 @@ background-color: var(--background-color-brands);
    color: var(--highlight-color-brands);
 }
 
+.brands_logos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
 
-.brands_logos_main img {
-   width: 100px;
-   height: 100%;
+.brands_logos img {
+   margin-bottom: 15px;
+}
+
+.brands_logos img {
+   width: 145px;
+padding: 0.9em;
+   height: 25%;
    filter: brightness(1) invert(1);
 }
 
