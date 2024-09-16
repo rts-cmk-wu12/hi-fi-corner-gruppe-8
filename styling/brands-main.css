@@ -62,10 +62,10 @@
 }
 
 .brands_logos img {
-   width: 145px;
-padding: 0.9em;
-   height: 25%;
+   width: 80px;
+   height: 10%;
    filter: brightness(1) invert(1);
+   object-fit: cover;
 }
 
 .highlight_brand_large {
