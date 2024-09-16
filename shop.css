@@ -11,20 +11,66 @@ grid-template-rows: 1fr 1fr 1fr 1fr;
 justify-content: start;
 max-width: 900px;
 margin: 0 auto;
+
   }
 
 
-  img{
-    max-width: 100%; 
-  }
-
-.grid.items{
-text-align: center;
-align-items: center;
-}
 
 a{
     color: white;
+    font-weight: bold;  
+     
 }
 
 
+
+.grid-items {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.grid-items img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+ 
+}
+
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80%;
+  
+}
+
+
+#button {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #a89464; 
+}
+
+#button button {
+  background-color: #685325; 
+  color: white; 
+  border: none; 
+  padding: 20px 40px; 
+  text-align: center; 
+  font-weight: bold;
+  font-size: 1rem;
+
+}
+
+#button button:hover {
+  background-color: #000000; 
+}
