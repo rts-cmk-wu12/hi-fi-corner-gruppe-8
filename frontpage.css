@@ -63,6 +63,10 @@ header{
     align-items: center;
     justify-content: center;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .first-section h1{
     color: white;
