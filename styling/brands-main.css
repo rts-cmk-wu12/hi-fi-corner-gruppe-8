@@ -31,15 +31,7 @@
    display: flex;
 }
 
-.background_color_brands_undersection {
-   padding: 1rem;
-   background-image: url(../brands-background.jpg);
-   z-index: 1;
-}
 
-.brands_section_flex_undersection article {
-   width: 50%;
-}
 
 .brands_start {
    display: grid;
@@ -54,18 +46,18 @@
 .brands_logos {
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
+   justify-content: space-around;
+   padding: 1em  5em 1em 1em;
+   background-image: url(../logobilleder/textholder.jpg); 
+   z-index: 1;
 }
 
 .brands_logos img {
-   margin-bottom: 15px;
-}
-
-.brands_logos img {
-   width: 80px;
-   height: 10%;
+ 
+   width: 150px;
+   height: 75px;
    filter: brightness(1) invert(1);
-   object-fit: cover;
+   object-fit: contain;
 }
 
 .highlight_brand_large {
@@ -77,5 +69,12 @@
 }
 
 .brand_text_section h4 {
-padding-left: 0.5em !important;
+   padding-left: 0.5em !important;
+}
+
+.brand_text_section {
+   background-image: url(../logobilleder/billedeholder.jpg); 
+   z-index: 1;
+   height: 100%;
+   width: 100%;
 }
