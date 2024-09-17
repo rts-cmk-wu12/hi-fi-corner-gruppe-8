@@ -10,14 +10,20 @@
     padding: 5px;
     border: none;
     border-radius: 5px;
+    margin-right: 2rem;
 }
 header{
+    background-image: url(imgtilforside/COLOURBOX21695701.jpg);
     height: 100vh;
     width: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .top-navbar {
-    background-color: #000000;
+    background-color: #1a0f0f;
     border: 1px solid black;
+    opacity: 0.6;
     display: flex;
     height: 5rem;
     align-items: center;
@@ -45,4 +51,54 @@ header{
     color: white;
     font-size: 1.2rem;
 }
+.second-navbar-list a:hover {
+    color: #a89464;
+}
 /*-------------------footer--------------------*/
+footer{
+    background-color: #a89464;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.footer-one{
+    display: flex;
+}
+.footer-text{
+    color: #000000;
+    margin-right: 2rem;
+
+}
+.footer-link a{
+    color: white;
+}
+.footer-two{
+    display: flex;
+}  
+.footer-payment{
+    margin-top: 0.5rem;
+}
+.footer-fonts{
+    display: flex;
+    margin-left: 1rem;
+}
+.footer-fonts{
+    display: flex;
+}
+.cirkle-fonts{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 0.5rem;
+    margin: 5px;
+}
