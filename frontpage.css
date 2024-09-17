@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*------------------------------header------------------------------*/
 #sub-btn{
     background-color: rgb(44, 160, 255);
     color: white;
@@ -49,6 +50,7 @@ header{
     color: white;
     font-size: 1.2rem;
 }
+/*------------------------------frist section------------------------------*/
 .first-section{
     background-image: url(imgtilforside/brownwaves.webp);
     height: 100vh;
@@ -56,6 +58,10 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     display: flex;
     align-items: center;
@@ -70,6 +76,46 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+/*------------------------------slider------------------------------*/
+/* .slider-container {
+    margin: auto;
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    color: #a89464;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 65px;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+} */
+/*------------------------------noget------------------------------*/
+
 .social-sec {
     display: flex;
     justify-content: center;
@@ -130,6 +176,24 @@ footer{
 }
 .footer-one{
     display: flex;
+    gap: 3rem;
+    margin: 1.5rem;
+}
+.text-lines{
+    color: #000000;
+}
+.text-link a{
+    text-decoration: none;
+    color: white;
+
+}
+.footer-two{
+    display: flex;
+    margin: 1.5rem;
+}
+.footer-fonts{
+    display: flex;
+    margin-left: 1rem;
 }
 .footer-two{
     display: flex;
@@ -145,5 +209,6 @@ footer{
     display: flex;
     justify-content: center; 
     align-items: center;
+    margin-left: 0.5rem;
     margin: 5px;
 }
