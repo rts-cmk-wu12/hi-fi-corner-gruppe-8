@@ -10,6 +10,7 @@
     padding: 5px;
     border: none;
     border-radius: 5px;
+    margin-right: 2rem;
 }
 header{
     background-image: url(imgtilforside/COLOURBOX21695701.jpg);
@@ -50,6 +51,9 @@ header{
     color: white;
     font-size: 1.2rem;
 }
+.second-navbar-list a:hover {
+    color: #a89464;
+}
 /*------------------------------frist section------------------------------*/
 .first-section{
     background-image: url(imgtilforside/brownwaves.webp);
@@ -58,15 +62,9 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
 .first-section h1{
     color: white;
@@ -160,24 +158,11 @@ button:hover {
     margin: 4rem;
 }
 .info-box-top{
-    border: 2px solid white;
+    border: 3px solid white;
     display: inline-block; 
     padding: 0rem 2rem 0rem 2rem; 
     margin-bottom: 0.5rem;
     color: #a89464;
-}
-footer{
-    background-color: #a89464;
-    color: white;
-}
-.footer-container{
-    display: flex;
-    justify-content: space-between;
-}
-.footer-one{
-    display: flex;
-    gap: 3rem;
-    margin: 1.5rem;
 }
 .text-lines{
     color: #000000;
@@ -187,16 +172,38 @@ footer{
     color: white;
 
 }
+footer{
+    background-color: #a89464;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.footer-one{
+    display: flex;
+}
+.footer-text{
+    color: #000000;
+    margin-right: 2rem;
+
+}
+.footer-link a{
+    color: white;
+}
 .footer-two{
     display: flex;
-    margin: 1.5rem;
+}  
+.footer-payment{
+    margin-top: 0.5rem;
 }
 .footer-fonts{
     display: flex;
     margin-left: 1rem;
-}
-.footer-two{
-    display: flex;
 }
 .footer-fonts{
     display: flex;
