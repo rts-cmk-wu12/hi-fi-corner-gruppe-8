@@ -76,6 +76,7 @@ header{
     align-items: center;
     justify-content: center;
 }
+
 /*------------------------------slider------------------------------*/
 /* .slider-container {
     margin: auto;
@@ -114,6 +115,7 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 } */
 /*------------------------------noget------------------------------*/
+
 .social-sec {
     display: flex;
     justify-content: center;
@@ -193,6 +195,12 @@ footer{
     display: flex;
     margin-left: 1rem;
 }
+.footer-two{
+    display: flex;
+}
+.footer-fonts{
+    display: flex;
+}
 .cirkle-fonts{
     border: 2px solid white;
     border-radius: 50%;
@@ -202,4 +210,5 @@ footer{
     justify-content: center; 
     align-items: center;
     margin-left: 0.5rem;
+    margin: 5px;
 }
