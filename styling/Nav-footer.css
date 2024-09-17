@@ -1,6 +1,6 @@
 
 
-header{
+header, footer{
     width: 100%; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,17 +9,17 @@ header{
 .top-navbar {
     background-color: #000000;
     border: 1px solid black;
-    opacity: 0.6;
     display: flex;
     height: 5rem;
     align-items: center;
-    justify-content: left;
+    justify-content: right;
     padding-right: 20px;
 }
 .top-navbar-list {
     display: flex;
     list-style: none;
     gap: 2rem;
+    margin: 0;
 }
 .second-navbar{
     background-color: #000000;
@@ -27,6 +27,7 @@ header{
     height: 5rem;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .second-navbar-list {
     display: flex;
@@ -46,4 +47,91 @@ header{
 .second-navbar-list a:hover {
     color: #a89464; 
     border-radius: 5px; 
+}
+
+footer{
+    background-color: #a89464;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.footer-one{
+    display: flex;
+}
+.footer-text{
+    color: #000000;
+    margin-right: 2rem;
+
+}
+.footer-link a{
+    color: white;
+}
+.footer-two{
+    display: flex;
+}  
+.footer-payment{
+    margin-top: 0.5rem;
+}
+.footer-fonts{
+    display: flex;
+    margin-left: 1rem;
+}
+.footer-fonts{
+    display: flex;
+}
+.cirkle-fonts{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 0.5rem;
+    margin: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .top-navbar {
+        justify-content: center;
+        padding-right: 0;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .top-navbar-list {
+        gap: 1rem;
+        flex-direction:row;
+        margin-bottom: 10px;
+    }
+    .second-navbar {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .second-navbar-list {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .second-navbar-list a {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+    .footer-container {
+        padding: 1rem;
+    }
+    .footer-one, .footer-two {
+        flex-direction: column;
+    }
+    .footer-fonts {
+        gap: 0.5rem;
+    }
 }
