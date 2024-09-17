@@ -11,12 +11,10 @@ function loadProducts() {
                 // Create HTML for each product item
                 const productItem = `
                     <div class="product-item">
-                        <img src="${product.image}" alt="${product.name}">
+                        <img src="Produktbilleder/${product.category}/${product.image}" alt="${product.name}">
                         <h4>${product.name}</h4>
-                        <p class="price">${product.price.toFixed(2)}</p>
-                        <p class="description">${product.description}</p>
-                        <p class="manufacturer">${product.manufacturer}</p>
-                        <p class="category">${product.category}</p>
+                           <p class="manufacturer">${product.manufacturer}</p>
+                        <p class="price">${product.price}$</p>
                         <button>Add to cart</button>
                     </div>
                 `;
