@@ -1,6 +1,13 @@
+@import url(/styling/Nav-footer.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
     background-color: black;
-    max-width: 100%;
 }
 
 
@@ -11,8 +18,7 @@ grid-template-rows: 1fr 1fr 1fr 1fr;
 justify-content: start;
 max-width: 900px;
 margin: 0 auto;
-
-  }
+}
 
 
 
