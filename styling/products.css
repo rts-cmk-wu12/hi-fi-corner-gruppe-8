@@ -61,3 +61,20 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
+.product-item .sale-price {
+    font-weight: bold;
+    color: var(--highlight-color-brands);
+}
+
+.product-item .sale {
+    
+}
+
+.product-item .priceholder {
+    display: flex;
+gap: 1em;
+justify-content: center;
+}
+
+

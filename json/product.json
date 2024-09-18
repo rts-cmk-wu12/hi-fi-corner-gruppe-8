@@ -4,10 +4,11 @@
         "name": "Creek Classic CD",
         "description": "High-end CD player with exceptional audio quality",
         "price": 599.99,
+        "salePrice": 539.99,
         "image": "creek_classic_cd.jpg",
         "category": "cd-afspillere",
-        "manufacturer": "Creek Audio"       
-
+        "manufacturer": "Creek Audio",
+        "onSale": true
       },
       {
         "name": "Creek Destiny CD",
@@ -21,9 +22,11 @@
         "name": "Creek Evo CD",
         "description": "Audiophile-grade CD player for discerning listeners",
         "price": 799.99,
+        "salePrice": 719.99,
         "image": "creek_evo_cd.jpg",
         "category": "cd-afspillere",
-        "manufacturer": "Creek Audio"
+        "manufacturer": "Creek Audio",
+        "onSale": true
       },
       {
         "name": "EXP 2010S CD",
@@ -45,9 +48,11 @@
         "name": "Exposure 2010S",
         "description": "Versatile DVD player compatible with all regions",
         "price": 199.99,
+        "salePrice": 179.99,
         "image": "exposure_2010S.jpg",
         "category": "dvdafspillere",
-        "manufacturer": "Exposure Electronics"
+        "manufacturer": "Exposure Electronics",
+        "onSale": true
       },
       {
         "name": "Parasound D200",
@@ -69,9 +74,11 @@
         "name": "Manley Mahi",
         "description": "High-power amplifier for professional audio setups",
         "price": 1499.99,
+        "salePrice": 1349.99,
         "image": "manley_mahi.jpg",
         "category": "effektforstaerkere",
-        "manufacturer": "Manley Laboratories"
+        "manufacturer": "Manley Laboratories",
+        "onSale": true
       },
       {
         "name": "Manley Neoclassic 300B",
@@ -93,9 +100,11 @@
         "name": "Parasound A23",
         "description": "High-output amplifier for live performances",
         "price": 1799.99,
+        "salePrice": 1619.99,
         "image": "parasound_haloa23.jpg",
         "category": "effektforstaerkere",
-        "manufacturer": "Parasound"
+        "manufacturer": "Parasound",
+        "onSale": true
       },
       {
         "name": "Creek OBH 22 Passive PreAmp",
@@ -117,9 +126,11 @@
         "name": "Parasound Halo P3",
         "description": "Versatile multi-channel amplifier for home theaters",
         "price": 1599.99,
+        "salePrice": 1439.99,
         "image": "parasound_halop3.jpg",
         "category": "forforstaerkere",
-        "manufacturer": "Parasound"
+        "manufacturer": "Parasound",
+        "onSale": true
       },
       {
         "name": "Projekt Prebox",
@@ -133,9 +144,11 @@
         "name": "Boesendorfer VCS Wall",
         "description": "High-end floor-standing speakers for audiophiles",
         "price": 2499.99,
+        "salePrice": 2249.99,
         "image": "boesendorfer_vcs_wall.gif",
         "category": "hojtalere",
-        "manufacturer": "Bösendorfer"
+        "manufacturer": "Bösendorfer",
+        "onSale": true
       },
       {
         "name": "Epos M5",
@@ -157,9 +170,11 @@
         "name": "Harbeth Monitor 30",
         "description": "Complete 5.1 surround sound speaker system",
         "price": 1999.99,
+        "salePrice": 1799.99,
         "image": "harbeth_monitor30.jpg",
         "category": "hojtalere",
-        "manufacturer": "Harbeth"
+        "manufacturer": "Harbeth",
+        "onSale": true
       },
       {
         "name": "Harbeth P3ES2",
@@ -173,9 +188,11 @@
         "name": "Creek A50I",
         "description": "Integrated amplifier with multiple inputs and high-quality DAC",
         "price": 1799.99,
+        "salePrice": 1619.99,
         "image": "creek_a50I.jpg",
         "category": "int-forstaerkere",
-        "manufacturer": "Creek Audio"
+        "manufacturer": "Creek Audio",
+        "onSale": true
       },
       {
         "name": "Creek Classic 5350SE",
@@ -205,9 +222,11 @@
         "name": "Pro_ject Debut 3 BL",
         "description": "High-quality turntable for vinyl enthusiasts",
         "price": 799.99,
+        "salePrice": 719.99,
         "image": "pro_ject_debut_3_bl.jpg",
         "category": "pladespillere",
-        "manufacturer": "Pro-Ject Audio Systems"
+        "manufacturer": "Pro-Ject Audio Systems",
+        "onSale": true
       },
       {
         "name": "Pro_ject Rpm 5",
@@ -229,9 +248,11 @@
         "name": "Jolida JD102b",
         "description": "High-end tube preamplifier for warm, rich sound",
         "price": 2499.99,
+        "salePrice": 2249.99,
         "image": "jolida_JD102b.jpg",
         "category": "roer-forstaerkere",
-        "manufacturer": "Jolida"
+        "manufacturer": "Jolida",
+        "onSale": true
       },
       {
         "name": "Jolida JD202a",
@@ -265,6 +286,5 @@
         "category": "roer-forstaerkere",
         "manufacturer": "Jolida"
       }
-      
     ]
   }
