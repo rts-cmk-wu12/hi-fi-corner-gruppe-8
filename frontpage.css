@@ -1,3 +1,5 @@
+@import url(/styling/Nav-footer.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -201,50 +203,4 @@ button.next {
     color: white;
 
 }
-footer{
-    background-color: #a89464;
-    color: white;
-}
-.footer-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    font-family: "Inria Sans", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-.footer-one{
-    display: flex;
-}
-.footer-text{
-    color: #000000;
-    margin-right: 2rem;
 
-}
-.footer-link a{
-    color: white;
-}
-.footer-two{
-    display: flex;
-}  
-.footer-payment{
-    margin-top: 0.5rem;
-}
-.footer-fonts{
-    display: flex;
-    margin-left: 1rem;
-}
-.footer-fonts{
-    display: flex;
-}
-.cirkle-fonts{
-    border: 2px solid white;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    margin-left: 0.5rem;
-    margin: 5px;
-}
