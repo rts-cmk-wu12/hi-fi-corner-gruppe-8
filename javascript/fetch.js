@@ -63,14 +63,15 @@ function showProductDetails(productName) {
                 const productList = document.getElementById('product-list');
                 // Display detailed product information
                 productList.innerHTML = `
-                    <div class="product-details">
+                  <div class="product-item" data-id="${product.name}">
+                  <div class="product-details">
                         <img src="Produktbilleder/${product.category}/${product.image}" alt="${product.name}">
-                        <h2>${product.name}</h2>
-                        <p class="manufacturer">${product.manufacturer}</p>
-                        <p class="description">${product.description}</p>
-                        <p class="price">${product.price.toFixed(2)} kr</p>
-                        ${product.onSale ? `<p class="sale-price">${product.salePrice.toFixed(2)} kr</p>` : ''}
+                        <h4>${product.name}</h4>
+                        ${product.onSale ? `<div class="priceholder">` : ''}
+                        <p class="price${product.onSale ? 'sale' : ''}">${product.price} kr</p>
+                        ${product.onSale ? `<p class="sale-price">${product.salePrice} kr</p></div>` : ''}
                         <button>Add to cart</button>
+                        </div>
                     </div>
                 `;
             }
