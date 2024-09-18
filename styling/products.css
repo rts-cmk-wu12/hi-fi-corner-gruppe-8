@@ -1,7 +1,11 @@
- @import url(color-source.css);
+@import url(color-source.css);
 body {
     font-family: Arial, sans-serif;
     display: flex;
+}
+
+.highlight {
+    color: var(--highlight-color-brands);
 }
  
 .sidebar {
@@ -50,6 +54,7 @@ body {
 .product-item .price {
     font-weight: bold;
     margin-bottom: 10px;
+    color: var(--highlight-color-brands);
 }
  
 .product-item button {
@@ -67,14 +72,36 @@ body {
     color: var(--highlight-color-brands);
 }
 
-.product-item .sale {
-    
-}
-
 .product-item .priceholder {
     display: flex;
-gap: 1em;
-justify-content: center;
+    gap: 1em;
+    justify-content: center;
 }
 
+.product-list {
+    display: flex;
+}
 
+.priceholder .sale {
+    text-decoration: line-through;
+    color: #888 !important;
+}
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-details img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
