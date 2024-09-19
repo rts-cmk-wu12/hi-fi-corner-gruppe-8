@@ -1,10 +1,20 @@
 
-
-header, footer{
+/*-------------------header--------------------*/
+header{
+    background-image: url(imgtilforside/COLOURBOX21695701.jpg);
     width: 100%; 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+#sub-btn{
+    background-color: rgb(44, 160, 255);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2rem;
 }
 .top-navbar {
     background-color: #000000;
@@ -91,9 +101,10 @@ header, footer{
     transform-origin: 5% 50%;
 }
 
+/*-------------------header--------------------*/
 
 
-
+/*-------------------footer--------------------*/
 footer{
     background-color: #a89464;
     color: white;
@@ -146,8 +157,10 @@ footer{
     margin-left: 0.5rem;
     margin: 5px;
 }
+/*-------------------footer--------------------*/
 
 
+/*-------------------responsiv--------------------*/
 @media (max-width: 768px) {
     .top-navbar {
         justify-content: center;
@@ -213,3 +226,4 @@ footer{
     margin-top: 10px;
    }
 }
+/*-------------------responsiv--------------------*/
