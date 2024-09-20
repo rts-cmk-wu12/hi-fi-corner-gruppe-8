@@ -35,6 +35,10 @@ header{
     display: flex;
     list-style: none;
     gap: 2rem;
+    align-items: center;
+}
+[aria-current="page"] {
+    color: #a89464 !important;
 }
 .second-navbar{
     background-color: #000000;
