@@ -22,48 +22,13 @@ header{
     background-size: cover;
     background-position: center;
 }
-.top-navbar {
-    background-color: #1a0f0f;
-    border: 1px solid black;
-    opacity: 0.6;
-    display: flex;
-    height: 5rem;
-    align-items: center;
-    justify-content: right;
-}
-.top-navbar-list {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-    align-items: center;
-}
-[aria-current="page"] {
-    color: #a89464 !important;
-}
-.second-navbar{
-    background-color: #000000;
-    display: flex;
-    height: 5rem;
-    align-items: center;
-    justify-content: center;
-}
-.second-navbar-list {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-}
-.second-navbar-list a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-}
-.second-navbar-list a:hover {
-    color: #a89464;
-}
+
+
+
 .hifi-img-container{
     display: flex;
     justify-content: center; 
-    margin-top: 14rem;
+    margin-top: 4rem;
 }
 
 .hifi-img{
