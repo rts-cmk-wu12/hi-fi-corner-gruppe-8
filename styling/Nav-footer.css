@@ -8,6 +8,9 @@ header{
     background-position: center;
 }
 
+[aria-current="page"] {
+    color: #a89464 !important;
+}
 #sub-btn{
     background-color: rgb(44, 160, 255);
     color: white;
@@ -30,6 +33,7 @@ header{
     list-style: none;
     gap: 2rem;
     margin: 0;
+    align-items: center;
 }
 .second-navbar{
     background-color: #000000;
