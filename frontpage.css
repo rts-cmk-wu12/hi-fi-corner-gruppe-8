@@ -28,7 +28,7 @@ header{
 .hifi-img-container{
     display: flex;
     justify-content: center; 
-    margin-top: 4rem;
+    margin-top: 10rem;
 }
 
 .hifi-img{
@@ -60,21 +60,22 @@ header{
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-    height: 37rem;
+    height: 1000px;
 }
 .mySlides {
     display: flex;
     justify-content: center;
     height: 100%; 
     position: relative;
+   
     
 }
 
 .mySlides img {
     display: block;
     margin: 0 auto;
-    width: 30%; 
-    padding-top: 200px;
+    width: 100%; 
+    padding-top: 400px;
 }
 
 .text-forslide {
