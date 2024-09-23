@@ -27,6 +27,7 @@ header{
     align-items: center;
     justify-content: right;
     padding-right: 20px;
+    
 }
 .top-navbar-list {
     display: flex;
@@ -87,23 +88,7 @@ header{
     transition: all 0.3s ease;
 }
 
-.menu-toggle:checked ~ .second-navbar {
-    display: flex;
-}
 
-.menu-toggle:checked + .burger-menu span:nth-child(1) {
-    transform: rotate(45deg);
-    transform-origin: 5% 50%;
-}
-
-.menu-toggle:checked + .burger-menu span:nth-child(2) {
-    opacity: 0;
-}
-
-.menu-toggle:checked + .burger-menu span:nth-child(3) {
-    transform: rotate(-45deg);
-    transform-origin: 5% 50%;
-}
 
 /*-------------------header--------------------*/
 
@@ -182,21 +167,18 @@ footer{
         flex-wrap: wrap;
         height: auto;
         position: relative;
+        flex-direction: column;
+        visibility: visible;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        
     }
     .second-navbar-list {
         flex-direction: column;
         gap: 1rem;
         position: relative;
     }
-    .second-navbar {
-        flex-direction: column;
-        display: none;
-        width: 100%;
-        height: auto;
-        text-align: center;
-        padding: 10px 0;
-    }
-
     .burger-menu {
         display: flex;
     }
@@ -206,6 +188,7 @@ footer{
         gap: 1rem;
         margin: 0;
         padding-bottom: 20px;
+      
     }
 
     .second-navbar-list a {
