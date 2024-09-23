@@ -7,11 +7,64 @@
       <title>produkt</title>
       <link rel="stylesheet" href="styling/products.css">
       <script type="module" src="javascript/fetch.js"></script>
-  </head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
   <body>
+    <header>
+        <nav class="top-navbar">
+            <ul class="top-navbar-list">
+                <input type="text" placeholder="Search products..." name="search"> 
+                <li>
+                    <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> 
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                </li>
+                <li>
+                    <button id="sub-btn">Subscribe</button>
+                </li>
+                
+            </ul>
+        </nav>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label  class="burger-menu">
+            
+        </label>
+        
+        <nav class="second-navbar">
+            <ul class="second-navbar-list">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="/brands.html">Brands</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="shop.html">Shop</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
  
    <main>
-<input type="text" placeholder="Search products..." name="search">
+
 <section class="product-list">
       <div class="sidebar">
             <ul class="remove-marker highlight">
@@ -28,11 +81,11 @@
           <h4>Filter</h4>
           <p>PRICE</p>
           <ul class="remove-marker highlight">
-              <li><a href="#" data-min="0" data-max="499.99">$0.00 - $499.99</a></li>
-              <li><a href="#" data-min="500" data-max="999.99">$500.00 - $999.99</a></li>
-              <li><a href="#" data-min="1000" data-max="1499.99">$1000.00 - $1499.99</a></li>
-              <li><a href="#" data-min="1500" data-max="1999.99">$1500.00 - $1999.99</a></li>
-              <li><a href="#" data-min="2000" data-max="2499.99">$2000.00 - $2499.99</a></li>
+              <li><a href="#" data-min="0" data-max="499.99">0.00 KR - 499.99 KR</a></li>
+              <li><a href="#" data-min="500" data-max="999.99">500.00 KR - 999.99 KR</a></li>
+              <li><a href="#" data-min="1000" data-max="1499.99">1000.00 KR- 1499.99 KR</a></li>
+              <li><a href="#" data-min="1500" data-max="1999.99">1500.00 KR- 1999.99 KR</a></li>
+              <li><a href="#" data-min="2000" data-max="2499.99">2000.00 KR- 2499.99 KR</a></li>
           </ul>
       </div>
  
@@ -65,5 +118,48 @@
 </section>
 
 </main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-one">
+            <div class="footer-text">
+                <p>Hi-Fi Corner</p>
+                <p>Edinburgh 2 Joppa Road EH15 2EU</p>
+                <p>FalKirk 44 Cow Wynd FK1 1PU</p>
+            </div>
+            <div class="footer-link">
+                <a href="#">Retrun & Refunds</a>
+                <p>|</p>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="footer-two">
+           <div class="footer-payment">
+                <a href="#"><i class="fa-brands fa-cc-visa fa-lg" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-cc-visa fa-lg" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-cc-mastercard fa-lg" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-cc-visa fa-lg" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-cc-visa fa-lg" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-cc-paypal fa-lg" style="color: #ffffff;"></i></a>
+            </div>
+            <div class="footer-fonts">
+                <div class="cirkle-fonts">
+                    <a href="#"><i class="fa-brands fa-facebook-f fa-xs" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="cirkle-fonts">
+                    <a href="#"><i class="fa-brands fa-youtube fa-xs" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="cirkle-fonts">
+                    <a href="#"><i class="fa-brands fa-twitter fa-xs" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="cirkle-fonts">
+                    <a href="#"><i class="fa-brands fa-instagram fa-xs" style="color: #ffffff;"></i></a>
+                </div>
+            </div> 
+        </div>
+        
+    </div>
+</footer>
+
   </body>
   </html>

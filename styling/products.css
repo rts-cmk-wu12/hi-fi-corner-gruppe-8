@@ -1,11 +1,13 @@
 @import url(color-source.css);
+@import url(/styling/Nav-footer.css);
 body {
     font-family: Arial, sans-serif;
+
 }
 
 .highlight {
     color: var(--highlight-color-brands);
-}
+} 
  
 .sidebar {
     width: 20%;
@@ -27,7 +29,10 @@ body {
 }
  
 .product-item {
-    width: 19em;
+
+    width: 25%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     margin: 10px;
     text-align: center;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
@@ -153,4 +158,101 @@ input[type="text"] {
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .top-navbar-list {
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .top-navbar-list input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #sub-btn {
+        margin-left: 25px;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .product-gallery {
+        width: 100%;
+    }
+
+    .product-item {
+        width: 100%;
+    }
+    
+    .second-navbar-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-one, .footer-two {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .top-navbar-list {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sidebar {
+        width: 30%;
+    }
+
+    .product-gallery {
+        width: 70%;
+    }
+
+    .product-item {
+        width: 45%;
+    }
+
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .top-navbar-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sidebar {
+        width: 20%;
+    }
+
+    .product-gallery {
+        width: 80%;
+    }
+
+    .product-item {
+        width: 22%;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+    }
 }
