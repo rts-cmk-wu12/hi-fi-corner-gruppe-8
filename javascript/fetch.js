@@ -43,9 +43,9 @@ function loadProducts(category = null, manufacturer = null, searchTerm = null, m
                     <div class="product-item" id="${product.name}">
 
                     <a class="product" href="products.html?id=${product.name}">
-
+                    <div class="product-picture">
                         <img src="Produktbilleder/${product.category}/${product.image}" alt="${product.name}">
-                        
+                     </div>   
                         <div class="product-info">
 
                         <h4>${product.name}</h4>
@@ -115,7 +115,9 @@ function handleUrlParams() {
                     const productList = document.getElementById('product-list');
                     productList.innerHTML = `
                         <div class="product-item" id="${product.name}">
+                        <div class="product-picture">
                             <img src="Produktbilleder/${product.category}/${product.image}" alt="${product.name}">
+                            </div>
                             <h4>${product.name}</h4>
                             ${product.onSale ? `<div class="priceholder">` : ''}
                             <p class="price${product.onSale ? ' sale' : ''}">${product.price} $</p>
