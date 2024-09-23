@@ -52,9 +52,9 @@ function loadProducts(category = null, manufacturer = null, searchTerm = null, m
 
                         ${product.onSale ? ` <div class="priceholder">` : ''}
 
-                        <p class="price ${product.onSale ? ' sale' : ''}">${product.price} kr</p>
+                        <p class="price ${product.onSale ? ' sale' : ''}">${product.price} $</p>
 
-                        ${product.onSale ? `<p class="sale-price">${product.salePrice} kr</p></div>` : ''}
+                        ${product.onSale ? `<p class="sale-price">${product.salePrice} $</p></div>` : ''}
 
                         <button>Add to cart</button>
                         </div>
@@ -118,8 +118,8 @@ function handleUrlParams() {
                             <img src="Produktbilleder/${product.category}/${product.image}" alt="${product.name}">
                             <h4>${product.name}</h4>
                             ${product.onSale ? `<div class="priceholder">` : ''}
-                            <p class="price${product.onSale ? ' sale' : ''}">${product.price} kr</p>
-                            ${product.onSale ? `<p class="sale-price">${product.salePrice} kr</p></div>` : ''}
+                            <p class="price${product.onSale ? ' sale' : ''}">${product.price} $</p>
+                            ${product.onSale ? `<p class="sale-price">${product.salePrice} $</p></div>` : ''}
                             <p>${product.description}</p>
                             <button>Add to cart</button>
                         </div>
