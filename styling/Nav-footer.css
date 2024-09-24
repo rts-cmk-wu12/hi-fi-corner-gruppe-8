@@ -19,6 +19,13 @@ header{
     border-radius: 5px;
     margin-right: 2rem;
 }
+
+.top-navbar img {
+    margin-left: 0;
+    
+}
+
+
 .top-navbar {
     background-color: #000000;
     border: 1px solid black;
@@ -27,8 +34,12 @@ header{
     align-items: center;
     justify-content: right;
     padding-right: 20px;
-    
+    justify-content: space-between;
 }
+
+
+
+
 .top-navbar-list {
     display: flex;
     list-style: none;
@@ -36,6 +47,13 @@ header{
     margin: 0;
     align-items: center;
 }
+
+.top-navbar-list li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
 .second-navbar{
     background-color: #000000;
     display: flex;
