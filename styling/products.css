@@ -156,12 +156,26 @@ body {
 }
 
 
-input[type="text"] {
-    width: 100%;
+.top-navbar-list input[type="text"] {
+float: left;
+  padding: 6px;
+  border: none;
+  
+  font-size: 17px;
+  cursor: pointer;
+}
+
+
+button {
     padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: none;
+    background-color: #a89464;
+    color: white;
     border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(44, 160, 255);
 }
 
 
