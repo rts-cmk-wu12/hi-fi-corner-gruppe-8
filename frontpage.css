@@ -28,12 +28,13 @@ header{
 .hifi-img-container{
     display: flex;
     justify-content: center; 
-    margin-top: 10rem;
+    margin-top: 2rem;
 }
 
 .hifi-img{
     display: inline-block;
     width: 250px;
+    
 }
 /*------------------------------frist section------------------------------*/
 .first-section{
