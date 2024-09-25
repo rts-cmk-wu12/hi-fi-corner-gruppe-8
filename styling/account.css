@@ -1,0 +1,34 @@
+@import url(/styling/Nav-footer.css);
+
+
+.customer_info {
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+ 
+.customer_info h2 {
+    margin-bottom: 1.5rem;
+}
+ 
+.form_group {
+    margin-bottom: 1rem;
+}
+ 
+.form_group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+ 
+.form_group input {
+    width: 30%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+ 
+.form_group input:focus {
+    outline: none;
+    border-color: #a49372;
+}
