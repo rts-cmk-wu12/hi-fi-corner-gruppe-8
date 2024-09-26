@@ -80,9 +80,14 @@
     </header>
  
    <main>
-
+ 
+    <body>
+        
+    
 <section class="product-list">
+    
       <div class="sidebar">
+        
             <ul class="remove-marker highlight">
                 <li><a href="#cd-afspillere">CD-afspillere</a></li>
                 <li><a href="#dvdafspillere">DVD-afspillere</a></li>
@@ -97,11 +102,11 @@
           <h4>Filter</h4>
           <p>PRICE</p>
           <ul class="remove-marker highlight">
-              <li><a href="#" data-min="0" data-max="499.99">0.00 KR - 499.99 KR</a></li>
-              <li><a href="#" data-min="500" data-max="999.99">500.00 KR - 999.99 KR</a></li>
-              <li><a href="#" data-min="1000" data-max="1499.99">1000.00 KR- 1499.99 KR</a></li>
-              <li><a href="#" data-min="1500" data-max="1999.99">1500.00 KR- 1999.99 KR</a></li>
-              <li><a href="#" data-min="2000" data-max="2499.99">2000.00 KR- 2499.99 KR</a></li>
+              <li><a href="#" data-min="0" data-max="499.99">0.00$ - 499.99$ </a></li>
+              <li><a href="#" data-min="500" data-max="999.99">500.00$  - 999.99$ </a></li>
+              <li><a href="#" data-min="1000" data-max="1499.99">1000.00$ - 1499.99$ </a></li>
+              <li><a href="#" data-min="1500" data-max="1999.99">1500.00$ - 1999.99$ </a></li>
+              <li><a href="#" data-min="2000" data-max="2499.99">2000.00$ - 2499.99$ </a></li>
           </ul>
       </div>
  
@@ -109,6 +114,28 @@
 
 
       <div class="product-gallery">
+     
+        <div class="toolbar">
+            <div class="sort-by">
+                <label for="sort">SORT BY:</label>
+                <select id="sort">
+                    <option value="price">Price</option>
+                    <option value="name">Name</option>
+                    <option value="popularity">Popularity</option>
+                </select>
+            </div>
+           
+            <div class="item-count">
+                <span>33 Item(s)</span>
+                <label for="items-per-page">SHOW:</label>
+                <select id="items-per-page">
+                    <option value="50">5</option>
+                    <option value="100">15</option>
+                    <option value="300" selected>15</option>
+                </select>
+            </div>
+        </div>
+   
           <div class="product" id="product-list">
            
 
