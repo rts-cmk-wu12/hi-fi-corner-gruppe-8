@@ -178,6 +178,69 @@ button:hover {
     background-color: rgb(44, 160, 255);
 }
 
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 50px;
+}
+
+.sort-by,
+.view-as,
+.item-count {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    padding: 5px;
+}
+
+.view-grid,
+.view-list {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+}
+
+.view-grid::before {
+    content: "\f00a"; 
+    font-family: 'Arial';
+    display: inline-block;
+}
+
+.view-list::before {
+    content: "\f0ca"; 
+    font-family: 'Arial';
+    display: inline-block;
+}
+
+button {
+    background-color: #e5e5e5;
+    border: 1px solid #ddd;
+}
+
+.item-count {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    margin-right: 10px;
+}
+
+
 
 
 
