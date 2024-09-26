@@ -10,6 +10,7 @@
 <body>
     <header>
         <nav class="top-navbar">
+            <img src="imgtilforside/billede.png" alt="index.html" style="width: 90px;" >
             <ul class="top-navbar-list">
                 <li>
                     <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> 
@@ -62,19 +63,27 @@
 
 
 
+<main>
 
 
 <section id="single-shop-product">
 
-<img src="/Billeder til shop/rød baggrund til single produkt.jpg" alt="#" >     
+<img id="single-shop-product-img" src="/Billeder til shop/rød baggrund til single produkt.jpg" alt="#" >     
 
 </section>
 a
+
+<div id="pic-and-info">
 <section id="single-shop-sales-picture">
 
-<img id="single-shop-product-img" src="" alt="#">     
+<img id="single-shop-product-img" src=" " width="600px" alt="#">     
 
+<div> 
+    <h3>More Views</h3>
+</div>
+<img src="#" alt="#">
 </section>
+
 a
 <section id="single-shop-product-info">
 <div id="single-shop-product-name"></div>
@@ -82,28 +91,34 @@ a
 <div id="single-shop-product-price"></div>
 <div id="single-shop-product-description"></div>                        
 <section>
-    <button>ASK A QUESTION</button>
-    <button>PART EXCHANGE</button>
-    <button>PAY BY FINANCE</button>
-    <button>SEEN A BETTER PRICE?</button>
+    <button class="product-btn">ASK A QUESTION</button>
+    <button class="product-btn">PART EXCHANGE</button>
+    <button class="product-btn">PAY BY FINANCE</button>
+    <button class="product-btn">SEEN A BETTER PRICE?</button>
 </section>
 <section>
 <div>
-<p>Finish<span>*</span></p>
 
-<label for="black">
-    <input type="radio" id="black" name="finish" value="black" >
-    <p>Black</p>
-</label>
-<label for="silver">
-    <input type="radio" id="silver" name="finish" value="silver">   
-    <p>Silver</p>
-</label>
+<div id="finish-and-required">
+<p>Finish<span>*</span></p>
+<div><p>* Required Fields</p></div>
 </div>
 
-<div><p>* Required Fields</p></div>
-
+<label class="color-pick" for="black">
+    <p>Black</p>
+    <input type="radio" id="black" name="finish" value="black" >
+    
+</label>
+<label class="color-pick" for="silver">
+    <p>Silver</p>
+    <input type="radio" id="silver" name="finish" value="silver">   
+   
+</label>
+</div>
 </section>
+
+
+<div id="add-to-cart-section">
 <section>
     <div><p>Qty:</p><label for="Qty">
         <input type="number" name="Qty" id="Qty" value="1">
@@ -116,16 +131,25 @@ a
     <button>Check out</button>
     <p>The safer, easier way to play</p>
 </section>
+</div>
 a
-<section>
-    <h3>More Views</h3>
+</div>
 
-<img src="#" alt="#">
-</section>
+
+
+
+
+
+
+
+
+
+
 a
-<section>   
-<div><h5>MANUFACTURER</h5><p id="Manufacturer"></p></div>
-<div><H5>MANUFACTURER LINK</H5><p id="Manufacturer-link"></p></div>
+<section id="additional-information">
+<h2>ADDITIONAL INFORMATION</h2>   
+<div><h5>MANUFACTURER</h5><p id="Manufacturer"></p></div> <br>
+<div><H5>MANUFACTURER LINK</H5><p id="Manufacturer-link"></p></div><br>
 <div><H5>FREE WARANTY</H5></div><p>3 Years</p>
 <div><H5>DELIVERY CHARGE</H5><p>Free</p></div>
 <div><h5>DELIVERY TIME</h5><p>1-5 Working Days</p></div>
@@ -135,7 +159,7 @@ a
 </section>
 
 
-
+</main>
 
 
 
