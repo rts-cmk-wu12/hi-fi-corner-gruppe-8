@@ -1,27 +1,27 @@
-// Function to load products from JSON file
+// Funktion til at indlæse produkter fra JSON-fil
 function loadProducts(category = null, manufacturer = null, searchTerm = null, minPrice = null, maxPrice = null) {
-    // Fetch product data from JSON file
+    // Hent produktdata fra JSON-fil
     fetch('json/product.json')
         .then(response => response.json())
         .then(data => {
-            // Get the product list element
+            // Find produkt-listen i DOM'en
             const productList = document.getElementById('product-list');
-            productList.innerHTML = ''; // Clear existing products
+            productList.innerHTML = ''; // Ryd eksisterende produkter
 
-            // Initialize filtered products with all products
+            // Start med alle produkter
             let filteredProducts = data.products;
 
-            // Filter products by category if specified
+            // Filtrer efter kategori, hvis angivet
             if (category) {
                 filteredProducts = filteredProducts.filter(product => product.category === category);
             }
 
-            // Filter products by manufacturer if specified
+            // Filtrer efter producent, hvis angivet
             if (manufacturer) {
                 filteredProducts = filteredProducts.filter(product => product.manufacturer === manufacturer);
             }
 
-            // Filter products by search term if specified
+            // Filtrer efter søgeord, hvis angivet
             if (searchTerm) {
                 filteredProducts = filteredProducts.filter(product => 
                     product.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -29,7 +29,7 @@ function loadProducts(category = null, manufacturer = null, searchTerm = null, m
                 );
             }
 
-            // Filter products by price range if specified
+            // Filtrer efter prisinterval, hvis angivet
             if (minPrice !== null && maxPrice !== null) {
                 filteredProducts = filteredProducts.filter(product => {
                     const price = product.onSale ? product.salePrice : product.price;
@@ -37,7 +37,7 @@ function loadProducts(category = null, manufacturer = null, searchTerm = null, m
                 });
             }
 
-            // Create and append product items to the product list
+            // Opret og tilføj produktelementer til listen
             filteredProducts.forEach(product => {
                 const productItem = `
                     <div class="product-item" id="${product.name}">
@@ -66,15 +66,15 @@ function loadProducts(category = null, manufacturer = null, searchTerm = null, m
         });
 }
 
-// Load all products when the page loads
+// Indlæs alle produkter når siden loader
 window.onload = () => loadProducts();
 
-// Add event listener for search input
+// Tilføj event listener til søgefeltet
 document.querySelector('input[name="search"]').addEventListener('input', function(e) {
     loadProducts(null, null, e.target.value);
 });
 
-// Add event listeners for category links
+// Tilføj event listeners til kategori-links
 document.querySelectorAll('.sidebar ul:first-of-type a').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -83,7 +83,7 @@ document.querySelectorAll('.sidebar ul:first-of-type a').forEach(link => {
     });
 });
 
-// Add event listeners for manufacturer links
+// Tilføj event listeners til producent-links
 document.querySelectorAll('.black-marker a').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -92,7 +92,7 @@ document.querySelectorAll('.black-marker a').forEach(link => {
     });
 });
 
-// Add event listeners for price range links
+// Tilføj event listeners til prisinterval-links
 document.querySelectorAll('.sidebar ul:nth-of-type(2) a').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
@@ -103,5 +103,5 @@ document.querySelectorAll('.sidebar ul:nth-of-type(2) a').forEach(link => {
 });
 
 
-// Call handleUrlParams when the page loads
+// Kald handleUrlParams når siden indlæses
 window.addEventListener('load', handleUrlParams);
