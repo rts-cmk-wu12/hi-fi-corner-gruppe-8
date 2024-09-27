@@ -8,6 +8,7 @@
         "image": "creek_classic_cd.jpg",
         "category": "cd-afspillere",
         "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com",
         "onSale": true
       },
       {
@@ -16,7 +17,8 @@
         "price": 399.99,
         "image": "creek_Destiny_CD.jpg",
         "category": "cd-afspillere",
-        "manufacturer": "Creek Audio"
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com"
       },
       {
         "name": "Creek Evo CD",
@@ -26,6 +28,7 @@
         "image": "creek_evo_cd.jpg",
         "category": "cd-afspillere",
         "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com",
         "onSale": true
       },
       {
@@ -34,7 +37,8 @@
         "price": 149.99,
         "image": "exp_2010s_cd.gif",
         "category": "cd-afspillere",
-        "manufacturer": "Exposure Electronics"
+        "manufacturer": "Exposure Electronics",
+        "manufacturerLink": "https://www.exposurehifi.com"
       },
       {
         "name": "Creek Classic",
@@ -42,7 +46,8 @@
         "price": 299.99,
         "image": "creek_classic.jpg",
         "category": "dvdafspillere",
-        "manufacturer": "Creek Audio"
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com"
       },
       {
         "name": "Exposure 2010S",
@@ -52,6 +57,7 @@
         "image": "exposure_2010S.jpg",
         "category": "dvdafspillere",
         "manufacturer": "Exposure Electronics",
+        "manufacturerLink": "https://www.exposurehifi.com",
         "onSale": true
       },
       {
@@ -60,7 +66,8 @@
         "price": 349.99,
         "image": "parasound_d200.jpg",
         "category": "dvdafspillere",
-        "manufacturer": "Parasound"
+        "manufacturer": "Parasound",
+        "manufacturerLink": "https://www.parasound.com"
       },
       {
         "name": "Parasound Halod3",
@@ -68,7 +75,8 @@
         "price": 129.99,
         "image": "parasound_halod3.jpg",
         "category": "dvdafspillere",
-        "manufacturer": "Parasound"
+        "manufacturer": "Parasound",
+        "manufacturerLink": "https://www.parasound.com"
       },
       {
         "name": "Manley Mahi",
@@ -78,6 +86,7 @@
         "image": "manley_mahi.jpg",
         "category": "effektforstaerkere",
         "manufacturer": "Manley Laboratories",
+        "manufacturerLink": "https://www.manley.com",
         "onSale": true
       },
       {
@@ -86,7 +95,8 @@
         "price": 999.99,
         "image": "manley_neoclassic300b.jpg",
         "category": "effektforstaerkere",
-        "manufacturer": "Manley Laboratories"
+        "manufacturer": "Manley Laboratories",
+        "manufacturerLink": "https://www.manley.com"
       },
       {
         "name": "Manley Snapper",
@@ -94,7 +104,8 @@
         "price": 799.99,
         "image": "manley_snapper.jpg",
         "category": "effektforstaerkere",
-        "manufacturer": "Manley Laboratories"
+        "manufacturer": "Manley Laboratories",
+        "manufacturerLink": "https://www.manley.com"
       },
       {
         "name": "Parasound A23",
@@ -104,6 +115,7 @@
         "image": "parasound_haloa23.jpg",
         "category": "effektforstaerkere",
         "manufacturer": "Parasound",
+        "manufacturerLink": "https://www.parasound.com",
         "onSale": true
       },
       {
@@ -112,7 +124,8 @@
         "price": 1299.99,
         "image": "Creek_OBH_22_Passive_Preamp.jpg",
         "category": "forforstaerkere",
-        "manufacturer": "Creek Audio"
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com"
       },
       {
         "name": "Parasound Classic7100",
@@ -120,7 +133,8 @@
         "price": 899.99,
         "image": "parasound_classic7100.jpg",
         "category": "forforstaerkere",
-        "manufacturer": "Parasound"
+        "manufacturer": "Parasound",
+        "manufacturerLink": "https://www.parasound.com"
       },
       {
         "name": "Parasound Halo P3",
@@ -130,6 +144,7 @@
         "image": "parasound_halop3.jpg",
         "category": "forforstaerkere",
         "manufacturer": "Parasound",
+        "manufacturerLink": "https://www.parasound.com",
         "onSale": true
       },
       {
@@ -138,7 +153,8 @@
         "price": 699.99,
         "image": "Project_prebox.jpg",
         "category": "forforstaerkere",
-        "manufacturer": "Pro-Ject Audio Systems"
+        "manufacturer": "Pro-Ject Audio Systems",
+        "manufacturerLink": "https://www.project-audio.com"
       },
       {
         "name": "Boesendorfer VCS Wall",
@@ -148,6 +164,7 @@
         "image": "boesendorfer_vcs_wall.gif",
         "category": "hojtalere",
         "manufacturer": "Bösendorfer",
+        "manufacturerLink": "https://www.boesendorfer.com",
         "onSale": true
       },
       {
@@ -156,7 +173,8 @@
         "price": 2199.99,
         "image": "epos_m5.gif",
         "category": "hojtalere",
-        "manufacturer": "Epos"
+        "manufacturer": "Epos",
+        "manufacturerLink": "https://www.epos-acoustics.com"
       },
       {
         "name": "Harbeth HL7ES2",
@@ -164,7 +182,8 @@
         "price": 799.99,
         "image": "harbeth_hl7es2.jpg",
         "category": "hojtalere",
-        "manufacturer": "Harbeth"
+        "manufacturer": "Harbeth",
+        "manufacturerLink": "https://www.harbeth.co.uk"
       },
       { 
         "name": "Harbeth Monitor 30",
@@ -174,6 +193,7 @@
         "image": "harbeth_monitor30.jpg",
         "category": "hojtalere",
         "manufacturer": "Harbeth",
+        "manufacturerLink": "https://www.harbeth.co.uk",
         "onSale": true
       },
       {
@@ -182,7 +202,8 @@
         "price": 399.99,
         "image": "harbeth_p3es2.jpg",
         "category": "hojtalere",
-        "manufacturer": "Harbeth"
+        "manufacturer": "Harbeth",
+        "manufacturerLink": "https://www.harbeth.co.uk"
       },
       {
         "name": "Creek A50I",
@@ -192,6 +213,7 @@
         "image": "creek_a50I.jpg",
         "category": "int-forstaerkere",
         "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com",
         "onSale": true
       },
       {
@@ -200,7 +222,8 @@
         "price": 1499.99,
         "image": "creek_classic5350SE.jpg",
         "category": "int-forstaerkere",
-        "manufacturer": "Creek Audio"
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com"
       },
       {
         "name": "Creek Destiny Amp",
@@ -208,7 +231,8 @@
         "price": 1299.99,
         "image": "creek_destinyamp.jpg",
         "category": "int-forstaerkere",
-        "manufacturer": "Creek Audio"
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com"
       },
       {
         "name": "Manley Stingray",
@@ -216,7 +240,8 @@
         "price": 899.99,
         "image": "manley_stingray.jpg",
         "category": "int-forstaerkere",
-        "manufacturer": "Manley Laboratories"
+        "manufacturer": "Manley Laboratories",
+        "manufacturerLink": "https://www.manley.com"
       },
       {
         "name": "Pro_ject Debut 3 BL",
@@ -226,6 +251,7 @@
         "image": "pro_ject_debut_3_bl.jpg",
         "category": "pladespillere",
         "manufacturer": "Pro-Ject Audio Systems",
+        "manufacturerLink": "https://www.project-audio.com",
         "onSale": true
       },
       {
@@ -234,7 +260,8 @@
         "price": 399.99,
         "image": "Pro_ject_rpm_5.jpg",
         "category": "pladespillere",
-        "manufacturer": "Pro-Ject Audio Systems"
+        "manufacturer": "Pro-Ject Audio Systems",
+        "manufacturerLink": "https://www.project-audio.com"
       },
       {
         "name": "Pro_ject Rpm 10",
@@ -242,7 +269,8 @@
         "price": 499.99,
         "image": "Pro_ject_rpm10.jpg",
         "category": "pladespillere",
-        "manufacturer": "Pro-Ject Audio Systems"
+        "manufacturer": "Pro-Ject Audio Systems",
+        "manufacturerLink": "https://www.project-audio.com"
       },
       {
         "name": "Jolida JD102b",
@@ -252,6 +280,7 @@
         "image": "jolida_JD102b.jpg",
         "category": "roer-forstaerkere",
         "manufacturer": "Jolida",
+        "manufacturerLink": "https://www.jolida.com",
         "onSale": true
       },
       {
@@ -260,7 +289,8 @@
         "price": 1999.99,
         "image": "jolida_JD202a.jpg",
         "category": "roer-forstaerkere",
-        "manufacturer": "Jolida"
+        "manufacturer": "Jolida",
+        "manufacturerLink": "https://www.jolida.com"
       },
       {
         "name": "Jolida JD300b",
@@ -268,7 +298,8 @@
         "price": 1799.99,
         "image": "jolida_JD300b.jpg",
         "category": "roer-forstaerkere",
-        "manufacturer": "Jolida"
+        "manufacturer": "Jolida",
+        "manufacturerLink": "https://www.jolida.com"
       },
       {
         "name": "Jolida JD302b",
@@ -276,7 +307,8 @@
         "price": 599.99,
         "image": "jolida_JD302b.jpg",
         "category": "roer-forstaerkere",
-        "manufacturer": "Jolida"
+        "manufacturer": "Jolida",
+        "manufacturerLink": "https://www.jolida.com"
       },
       {
         "name": "Jolida JD 502b",
@@ -284,7 +316,8 @@
         "price": 599.99,
         "image": "jolida_JD502b.jpg",
         "category": "roer-forstaerkere",
-        "manufacturer": "Jolida"
+        "manufacturer": "Jolida",
+        "manufacturerLink": "https://www.jolida.com"
       }
     ]
   }
