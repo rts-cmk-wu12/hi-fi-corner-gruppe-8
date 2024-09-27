@@ -1,0 +1,236 @@
+
+/*-------------------header--------------------*/
+header{
+    background-image: url(imgtilforside/COLOURBOX21695701.jpg);
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+[aria-current="page"] {
+    color: #a89464 !important;
+}
+#sub-btn{
+    background-color: rgb(44, 160, 255);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+
+.top-navbar img {
+    margin-left: 0;
+    
+}
+
+
+.top-navbar {
+    background-color: #000000;
+    border: 1px solid black;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+
+
+
+.top-navbar-list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    align-items: center;
+}
+
+.top-navbar-list li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.second-navbar{
+    background-color: #000000;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.second-navbar-list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.second-navbar-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 10px; 
+    transition: color 0.3s ease, background-color 0.3s ease;
+    
+}
+
+
+.second-navbar-list a:hover {
+    color: #a89464; 
+    border-radius: 5px; 
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+.burger-menu span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+
+
+/*-------------------header--------------------*/
+
+
+/*-------------------footer--------------------*/
+footer{
+    background-color: #a89464;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.footer-one{
+    display: flex;
+}
+.footer-text{
+    color: #000000 ;
+    margin-right: 2rem;
+
+}
+.footer-link a{
+    color: white;
+}
+
+.footer-link{
+    display: flex;
+    gap: 0.7rem;
+}
+.footer-two{
+    display: flex;
+}  
+.footer-payment{
+    margin-top: 0.5rem;
+}
+.footer-fonts{
+    display: flex;
+    margin-left: 1rem;
+}
+.footer-fonts{
+    display: flex;
+}
+.cirkle-fonts{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 0.5rem;
+    margin: 5px;
+}
+/*-------------------footer--------------------*/
+
+
+/*-------------------responsiv--------------------*/
+@media (max-width: 768px) {
+    .top-navbar {
+        justify-content: center;
+        padding-right: 0;
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .top-navbar-list {
+        gap: 1rem;
+        flex-direction:row;
+        margin-bottom: 10px;
+    }
+    .second-navbar {
+        flex-wrap: wrap;
+        height: auto;
+        position: relative;
+        flex-direction: column;
+        visibility: visible;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        
+    }
+    .second-navbar-list {
+        flex-direction: column;
+        gap: 1rem;
+        position: relative;
+    }
+    .burger-menu {
+        display: flex;
+    }
+
+    .second-navbar-list {
+        flex-direction: column;
+        gap: 1rem;
+        margin: 0;
+        padding-bottom: 20px;
+      
+    }
+
+    .second-navbar-list a {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .second-navbar-list a {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+    .footer-container {
+        padding: 1rem;
+    }
+    .footer-one, .footer-two {
+        flex-direction: column;
+    }
+    .footer-fonts {
+        gap: 0.5rem;
+    }
+
+   .footer-link{
+    margin-top: 10px;
+   }
+}
+/*-------------------responsiv--------------------*/

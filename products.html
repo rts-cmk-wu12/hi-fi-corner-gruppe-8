@@ -1,0 +1,212 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>produkt</title>
+        <link rel="stylesheet" href="styling/products.css">
+        <script type="module" src="javascript/fetch.js"></script>
+        <script type="module" src="javascript/fetch-single.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="https://kit.fontawesome.com/3b9b75cb66.js" crossorigin="anonymous"></script>   
+      </head>
+    <body>
+      <header>
+          <nav class="top-navbar">
+              <img src="imgtilforside/billede.png" alt="index.html" style="width: 90px;" >
+
+              <ul class="top-navbar-list">
+               
+               
+                
+                  <input type="text" placeholder="Search " name="search"> 
+                  <button type="submit">Search</button>
+               <li>
+                  <i class="fa-solid fa-user" style="color: #ffffff;"><a href="account.html">ACCOUNT</a></i>
+               </li>
+               <li>
+                  <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"><a href="kurv.html">CART</a></i>
+               </li>
+              
+                  <li>
+                      <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> 
+                  </li>
+            
+               
+                  <li>
+                      <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                  </li>
+                  <li>
+                      <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                  </li>
+                  <li>
+                      <button id="sub-btn">Subscribe</button>
+                  </li>
+                
+              </ul>
+          </nav>
+        
+          <input type="checkbox" id="menu-toggle" class="menu-toggle">
+          <label  class="burger-menu">
+            
+          </label>
+        
+          <nav class="second-navbar">
+              <ul class="second-navbar-list">
+                  <li>
+                      <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                      <a href="#">About us</a>
+                  </li>
+                  <li>
+                      <a href="/brands.html">Brands</a>
+                  </li>
+                  <li>
+                      <a href="#">Blog</a>
+                  </li>
+                  <li>
+                      <a href="#">Events</a>
+                  </li>
+                  <li>
+                      <a href="shop.html">Shop</a>
+                  </li>
+                  <li>
+                      <a href="#footer">Contact us</a>
+                  </li>
+
+              </ul>
+          </nav>
+      </header>
+ 
+   <main>
+ 
+      <body>
+        
+    
+  <section class="product-list">
+    
+        <div class="sidebar">
+        
+              <ul class="remove-marker highlight">
+                  <li><a href="#cd-afspillere">CD-afspillere</a></li>
+                  <li><a href="#dvdafspillere">DVD-afspillere</a></li>
+                  <li><a href="#effektforstaerkere">Effektforstærkere</a></li>
+                  <li><a href="#forforstaerkere">Forforstærkere</a></li>
+                  <li><a href="#hojtalere">Højtalere</a></li>
+                  <li><a href="#int-forstaerkere">Integrerede forstærkere</a></li>
+                  <li><a href="#pladespillere">Pladespillere</a></li>
+                  <li><a href="#roer-forstaerkere">Rørforstærkere</a></li>
+              </ul>
+            <h3 class="highlight">Shop by</h3>
+            <h4>Filter</h4>
+            <p>PRICE</p>
+            <ul class="remove-marker highlight">
+                <li><a href="#" data-min="0" data-max="499.99">0.00$ - 499.99$ </a></li>
+                <li><a href="#" data-min="500" data-max="999.99">500.00$  - 999.99$ </a></li>
+                <li><a href="#" data-min="1000" data-max="1499.99">1000.00$ - 1499.99$ </a></li>
+                <li><a href="#" data-min="1500" data-max="1999.99">1500.00$ - 1999.99$ </a></li>
+                <li><a href="#" data-min="2000" data-max="2499.99">2000.00$ - 2499.99$ </a></li>
+            </ul>
+        </div>
+ 
+   
+
+
+        <div class="product-gallery">
+     
+
+        <div class="toolbar">
+            <div class="sort-by">
+                <label for="sort">SORT BY:</label>
+                <select id="sort">
+                    <option value="price">Price</option>
+                    <option value="name">Name</option>
+                   
+                </select>
+            </div>
+
+           
+              <div class="item-count">
+                  <span>33 Item(s)</span>
+                  <label for="items-per-page">SHOW:</label>
+                  <select id="items-per-page">
+                      <option value="50">5</option>
+                      <option value="100">15</option>
+                      <option value="300" selected>15</option>
+                  </select>
+              </div>
+          </div>
+   
+            <div class="product" id="product-list">
+           
+
+
+            </div>
+        </div>
+ <div>
+        <h4 class="highlight">Manufacturer</h4>
+        <ul class="remove-markerblack black-marker">
+            <li><a href="#">Creek Audio</a></li>
+            <li><a href="#">Exposure Electronics</a></li>
+            <li><a href="#">Parasound</a></li>
+            <li><a href="#">Manley Laboratories</a></li>
+            <li><a href="#">Pro-Ject Audio Systems</a></li>
+            <li><a href="#">Bösendorfer</a></li>
+            <li><a href="#">Epos</a></li>
+            <li><a href="#">Harbeth</a></li>
+            <li><a href="#">Jolida</a></li>
+        </ul>
+        <h4 class="highlight">View All</h4>
+  </div>
+
+  </section>
+
+  </main>
+
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-one">
+            <div class="footer-text">
+                <p>Hi-Fi Corner</p>
+                <p>Edinburgh 2 Joppa Road EH15 2EU</p>
+                <p>FalKirk 44 Cow Wynd FK1 1PU</p>
+            </div>
+            <div class="footer-link">
+                <a href="#">Returns & Refunds</a>
+                <p>|</p>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="footer-two">
+
+           <div class="footer-payment">
+                  <a href="#"><i class="fa-brands fa-cc-visa fa-lg" style="color: #ffffff;"></i></a>
+                  <a href="#"><i class="fa-brands fa-cc-visa fa-lg" style="color: #ffffff;"></i></a>
+                  <a href="#"><i class="fa-brands fa-cc-mastercard fa-lg" style="color: #ffffff;"></i></a>
+                  <a href="#"><i class="fa-brands fa-cc-visa fa-lg" style="color: #ffffff;"></i></a>
+                  <a href="#"><i class="fa-brands fa-cc-visa fa-lg" style="color: #ffffff;"></i></a>
+                  <a href="#"><i class="fa-brands fa-cc-paypal fa-lg" style="color: #ffffff;"></i></a>
+              </div>
+              <div class="footer-fonts">
+                  <div class="cirkle-fonts">
+                      <a href="#"><i class="fa-brands fa-facebook-f fa-xs" style="color: #ffffff;"></i></a>
+                  </div>
+                  <div class="cirkle-fonts">
+                      <a href="#"><i class="fa-brands fa-youtube fa-xs" style="color: #ffffff;"></i></a>
+                  </div>
+                  <div class="cirkle-fonts">
+                      <a href="#"><i class="fa-brands fa-twitter fa-xs" style="color: #ffffff;"></i></a>
+                  </div>
+                  <div class="cirkle-fonts">
+                      <a href="#"><i class="fa-brands fa-instagram fa-xs" style="color: #ffffff;"></i></a>
+                  </div>
+              </div> 
+          </div>
+        
+      </div>
+  </footer>
+
+    </body>
+    </html>
