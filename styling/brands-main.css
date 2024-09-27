@@ -1,0 +1,88 @@
+@import url(/styling/Nav-footer.css);
+@import url(color-source.css);
+
+* {
+   margin: 0 auto;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+.brands_main {
+   background-color: var(--background-color-brands);
+}
+
+.brands_wrap {
+   background-image: url(../brands-background.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   
+}
+
+.background_color_brands_section {
+   background-color: var(--background-color-brands);
+   margin: auto;
+   width: 90%;
+   padding: 1.5rem;
+   border-radius: 10px;
+
+}
+
+.brands_section_flex {
+   display: flex;
+}
+
+
+
+.brands_start {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
+}
+
+.brands_start h1{
+   padding-left: 30px;
+   padding-bottom: 30px;
+   color: white;
+}
+
+.highlight_brand {
+   color: var(--highlight-color-brands);
+}
+
+.brands_logos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 1em  5em 1em 1em;
+   background-image: url(../logobilleder/textholder.jpg); 
+   z-index: 1;
+}
+
+.brands_logos img {
+ 
+   width: 150px;
+   height: 75px;
+   filter: brightness(1) invert(1);
+   object-fit: contain;
+}
+
+.highlight_brand_large {
+   font-size: 1.75rem;
+}
+
+.brand_text_section p, .brand_text_section h4, .brand_text_section a{
+   padding: 1em !important;
+}
+
+.brand_text_section h4 {
+   padding-left: 0.5em !important;
+}
+
+.brand_text_section {
+   background-image: url(../logobilleder/billedeholder.jpg); 
+   z-index: 1;
+   height: 100%;
+   width: 100%;
+   color: white;
+}

@@ -1,0 +1,323 @@
+  {
+    "products": [
+      {
+        "name": "Creek Classic CD",
+        "description": "High-end CD player with exceptional audio quality",
+        "price": 599.99,
+        "salePrice": 539.99,
+        "image": "creek_classic_cd.jpg",
+        "category": "cd-afspillere",
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com",
+        "onSale": true
+      },
+      {
+        "name": "Creek Destiny CD",
+        "description": "Versatile CD player with multiple playback options",
+        "price": 399.99,
+        "image": "creek_Destiny_CD.jpg",
+        "category": "cd-afspillere",
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com"
+      },
+      {
+        "name": "Creek Evo CD",
+        "description": "Audiophile-grade CD player for discerning listeners",
+        "price": 799.99,
+        "salePrice": 719.99,
+        "image": "creek_evo_cd.jpg",
+        "category": "cd-afspillere",
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com",
+        "onSale": true
+      },
+      {
+        "name": "EXP 2010S CD",
+        "description": "Compact and portable CD player for music on-the-go",
+        "price": 149.99,
+        "image": "exp_2010s_cd.gif",
+        "category": "cd-afspillere",
+        "manufacturer": "Exposure Electronics",
+        "manufacturerLink": "https://www.exposurehifi.com"
+      },
+      {
+        "name": "Creek Classic",
+        "description": "High-performance DVD player with upscaling capabilities",
+        "price": 299.99,
+        "image": "creek_classic.jpg",
+        "category": "dvdafspillere",
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com"
+      },
+      {
+        "name": "Exposure 2010S",
+        "description": "Versatile DVD player compatible with all regions",
+        "price": 199.99,
+        "salePrice": 179.99,
+        "image": "exposure_2010S.jpg",
+        "category": "dvdafspillere",
+        "manufacturer": "Exposure Electronics",
+        "manufacturerLink": "https://www.exposurehifi.com",
+        "onSale": true
+      },
+      {
+        "name": "Parasound D200",
+        "description": "DVD player with built-in surround sound processing",
+        "price": 349.99,
+        "image": "parasound_d200.jpg",
+        "category": "dvdafspillere",
+        "manufacturer": "Parasound",
+        "manufacturerLink": "https://www.parasound.com"
+      },
+      {
+        "name": "Parasound Halod3",
+        "description": "Space-saving DVD player with sleek design",
+        "price": 129.99,
+        "image": "parasound_halod3.jpg",
+        "category": "dvdafspillere",
+        "manufacturer": "Parasound",
+        "manufacturerLink": "https://www.parasound.com"
+      },
+      {
+        "name": "Manley Mahi",
+        "description": "High-power amplifier for professional audio setups",
+        "price": 1499.99,
+        "salePrice": 1349.99,
+        "image": "manley_mahi.jpg",
+        "category": "effektforstaerkere",
+        "manufacturer": "Manley Laboratories",
+        "manufacturerLink": "https://www.manley.com",
+        "onSale": true
+      },
+      {
+        "name": "Manley Neoclassic 300B",
+        "description": "Versatile effect amplifier for recording studios",
+        "price": 999.99,
+        "image": "manley_neoclassic300b.jpg",
+        "category": "effektforstaerkere",
+        "manufacturer": "Manley Laboratories",
+        "manufacturerLink": "https://www.manley.com"
+      },
+      {
+        "name": "Manley Snapper",
+        "description": "Powerful amplifier optimized for low-frequency response",
+        "price": 799.99,
+        "image": "manley_snapper.jpg",
+        "category": "effektforstaerkere",
+        "manufacturer": "Manley Laboratories",
+        "manufacturerLink": "https://www.manley.com"
+      },
+      {
+        "name": "Parasound A23",
+        "description": "High-output amplifier for live performances",
+        "price": 1799.99,
+        "salePrice": 1619.99,
+        "image": "parasound_haloa23.jpg",
+        "category": "effektforstaerkere",
+        "manufacturer": "Parasound",
+        "manufacturerLink": "https://www.parasound.com",
+        "onSale": true
+      },
+      {
+        "name": "Creek OBH 22 Passive PreAmp",
+        "description": "Audiophile-grade amplifier with minimal distortion",
+        "price": 1299.99,
+        "image": "Creek_OBH_22_Passive_Preamp.jpg",
+        "category": "forforstaerkere",
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com"
+      },
+      {
+        "name": "Parasound Classic7100",
+        "description": "Powerful stereo amplifier for home audio systems",
+        "price": 899.99,
+        "image": "parasound_classic7100.jpg",
+        "category": "forforstaerkere",
+        "manufacturer": "Parasound",
+        "manufacturerLink": "https://www.parasound.com"
+      },
+      {
+        "name": "Parasound Halo P3",
+        "description": "Versatile multi-channel amplifier for home theaters",
+        "price": 1599.99,
+        "salePrice": 1439.99,
+        "image": "parasound_halop3.jpg",
+        "category": "forforstaerkere",
+        "manufacturer": "Parasound",
+        "manufacturerLink": "https://www.parasound.com",
+        "onSale": true
+      },
+      {
+        "name": "Projekt Prebox",
+        "description": "Space-efficient amplifier with impressive output",
+        "price": 699.99,
+        "image": "Project_prebox.jpg",
+        "category": "forforstaerkere",
+        "manufacturer": "Pro-Ject Audio Systems",
+        "manufacturerLink": "https://www.project-audio.com"
+      },
+      {
+        "name": "Boesendorfer VCS Wall",
+        "description": "High-end floor-standing speakers for audiophiles",
+        "price": 2499.99,
+        "salePrice": 2249.99,
+        "image": "boesendorfer_vcs_wall.gif",
+        "category": "hojtalere",
+        "manufacturer": "Bösendorfer",
+        "manufacturerLink": "https://www.boesendorfer.com",
+        "onSale": true
+      },
+      {
+        "name": "Epos M5",
+        "description": "Premium floor-standing speakers with exceptional sound quality and clarity",
+        "price": 2199.99,
+        "image": "epos_m5.gif",
+        "category": "hojtalere",
+        "manufacturer": "Epos",
+        "manufacturerLink": "https://www.epos-acoustics.com"
+      },
+      {
+        "name": "Harbeth HL7ES2",
+        "description": "Compact bookshelf speakers with impressive sound",
+        "price": 799.99,
+        "image": "harbeth_hl7es2.jpg",
+        "category": "hojtalere",
+        "manufacturer": "Harbeth",
+        "manufacturerLink": "https://www.harbeth.co.uk"
+      },
+      { 
+        "name": "Harbeth Monitor 30",
+        "description": "Complete 5.1 surround sound speaker system",
+        "price": 1999.99,
+        "salePrice": 1799.99,
+        "image": "harbeth_monitor30.jpg",
+        "category": "hojtalere",
+        "manufacturer": "Harbeth",
+        "manufacturerLink": "https://www.harbeth.co.uk",
+        "onSale": true
+      },
+      {
+        "name": "Harbeth P3ES2",
+        "description": "Weather-resistant outdoor speakers for patio and garden",
+        "price": 399.99,
+        "image": "harbeth_p3es2.jpg",
+        "category": "hojtalere",
+        "manufacturer": "Harbeth",
+        "manufacturerLink": "https://www.harbeth.co.uk"
+      },
+      {
+        "name": "Creek A50I",
+        "description": "Integrated amplifier with multiple inputs and high-quality DAC",
+        "price": 1799.99,
+        "salePrice": 1619.99,
+        "image": "creek_a50I.jpg",
+        "category": "int-forstaerkere",
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com",
+        "onSale": true
+      },
+      {
+        "name": "Creek Classic 5350SE",
+        "description": "Integrated amplifier with built-in streaming capabilities",
+        "price": 1499.99,
+        "image": "creek_classic5350SE.jpg",
+        "category": "int-forstaerkere",
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com"
+      },
+      {
+        "name": "Creek Destiny Amp",
+        "description": "Integrated amplifier with high-quality phono stage",
+        "price": 1299.99,
+        "image": "creek_destinyamp.jpg",
+        "category": "int-forstaerkere",
+        "manufacturer": "Creek Audio",
+        "manufacturerLink": "https://www.creekaudio.com"
+      },
+      {
+        "name": "Manley Stingray",
+        "description": "Space-saving integrated amplifier for small rooms",
+        "price": 899.99,
+        "image": "manley_stingray.jpg",
+        "category": "int-forstaerkere",
+        "manufacturer": "Manley Laboratories",
+        "manufacturerLink": "https://www.manley.com"
+      },
+      {
+        "name": "Pro_ject Debut 3 BL",
+        "description": "High-quality turntable for vinyl enthusiasts",
+        "price": 799.99,
+        "salePrice": 719.99,
+        "image": "pro_ject_debut_3_bl.jpg",
+        "category": "pladespillere",
+        "manufacturer": "Pro-Ject Audio Systems",
+        "manufacturerLink": "https://www.project-audio.com",
+        "onSale": true
+      },
+      {
+        "name": "Pro_ject Rpm 5",
+        "description": "User-friendly automatic turntable for easy operation",
+        "price": 399.99,
+        "image": "Pro_ject_rpm_5.jpg",
+        "category": "pladespillere",
+        "manufacturer": "Pro-Ject Audio Systems",
+        "manufacturerLink": "https://www.project-audio.com"
+      },
+      {
+        "name": "Pro_ject Rpm 10",
+        "description": "User-friendly automatic turntable for easy operation",
+        "price": 499.99,
+        "image": "Pro_ject_rpm10.jpg",
+        "category": "pladespillere",
+        "manufacturer": "Pro-Ject Audio Systems",
+        "manufacturerLink": "https://www.project-audio.com"
+      },
+      {
+        "name": "Jolida JD102b",
+        "description": "High-end tube preamplifier for warm, rich sound",
+        "price": 2499.99,
+        "salePrice": 2249.99,
+        "image": "jolida_JD102b.jpg",
+        "category": "roer-forstaerkere",
+        "manufacturer": "Jolida",
+        "manufacturerLink": "https://www.jolida.com",
+        "onSale": true
+      },
+      {
+        "name": "Jolida JD202a",
+        "description": "Classic stereo tube amplifier for audiophiles",
+        "price": 1999.99,
+        "image": "jolida_JD202a.jpg",
+        "category": "roer-forstaerkere",
+        "manufacturer": "Jolida",
+        "manufacturerLink": "https://www.jolida.com"
+      },
+      {
+        "name": "Jolida JD300b",
+        "description": "Integrated amplifier combining tube and solid-state technologies",
+        "price": 1799.99,
+        "image": "jolida_JD300b.jpg",
+        "category": "roer-forstaerkere",
+        "manufacturer": "Jolida",
+        "manufacturerLink": "https://www.jolida.com"
+      },
+      {
+        "name": "Jolida JD302b",
+        "description": "Compact tube amplifier for headphone enthusiasts",
+        "price": 599.99,
+        "image": "jolida_JD302b.jpg",
+        "category": "roer-forstaerkere",
+        "manufacturer": "Jolida",
+        "manufacturerLink": "https://www.jolida.com"
+      },
+      {
+        "name": "Jolida JD 502b",
+        "description": "Compact tube amplifier for headphone enthusiasts",
+        "price": 599.99,
+        "image": "jolida_JD502b.jpg",
+        "category": "roer-forstaerkere",
+        "manufacturer": "Jolida",
+        "manufacturerLink": "https://www.jolida.com"
+      }
+    ]
+  }
