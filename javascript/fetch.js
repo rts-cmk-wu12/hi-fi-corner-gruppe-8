@@ -42,7 +42,7 @@ function loadProducts(category = null, manufacturer = null, searchTerm = null, m
                 const productItem = `
                     <div class="product-item" id="${product.name}">
 
-                    <a class="product" href="products.html?id=${product.name}">
+                    <a class="product" href="single-shop-product.html?id=${product.name}">
                     <div class="product-picture">
                         <img src="Produktbilleder/${product.category}/${product.image}" alt="${product.name}">
                      </div>   
@@ -56,7 +56,7 @@ function loadProducts(category = null, manufacturer = null, searchTerm = null, m
 
                         ${product.onSale ? `<p class="sale-price">${product.salePrice} $</p></div>` : ''}
 
-                        <button>Add to cart</button>
+                        <button>View More</button>
                         </div>
                     </a>
                     </div>
@@ -102,34 +102,6 @@ document.querySelectorAll('.sidebar ul:nth-of-type(2) a').forEach(link => {
     });
 });
 
-// Function to handle URL parameters for single product view
-function handleUrlParams() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const productId = urlParams.get('id');
-    if (productId) {
-        fetch('json/product.json')
-            .then(response => response.json())
-            .then(data => {
-                const product = data.products.find(p => p.name === productId);
-                if (product) {
-                    const productList = document.getElementById('product-list');
-                    productList.innerHTML = `
-                        <div class="product-item" id="${product.name}">
-                        <div class="product-picture">
-                            <img src="Produktbilleder/${product.category}/${product.image}" alt="${product.name}">
-                            </div>
-                            <h4>${product.name}</h4>
-                            ${product.onSale ? `<div class="priceholder">` : ''}
-                            <p class="price${product.onSale ? ' sale' : ''}">${product.price} $</p>
-                            ${product.onSale ? `<p class="sale-price">${product.salePrice} $</p></div>` : ''}
-                            <p>${product.description}</p>
-                            <button>Add to cart</button>
-                        </div>
-                    `;
-                }
-            });
-    }
-}
 
 // Call handleUrlParams when the page loads
 window.addEventListener('load', handleUrlParams);
